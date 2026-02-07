@@ -1,0 +1,346 @@
+# ================================
+# PYTHON
+# ================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+pytestdebug.log
+
+# ================================
+# AMBIENTES VIRTUAIS
+# ================================
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+*.venv
+.conda/
+conda-env/
+
+# ================================
+# JUPYTER NOTEBOOK
+# ================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+profile_default/
+ipython_config.py
+.jupyter/
+
+# ================================
+# DADOS
+# ================================
+# Dados brutos (geralmente grandes)
+data/raw/*
+!data/raw/.gitkeep
+
+# Dados processados
+data/processed/*
+!data/processed/.gitkeep
+
+# Dados externos
+data/external/*
+!data/external/.gitkeep
+
+# Dados temporários
+data/interim/*
+!data/interim/.gitkeep
+
+# Datasets específicos
+*.csv
+*.tsv
+*.dat
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.json.gz
+*.jsonl
+
+# Exceções (se quiser versionar pequenos datasets de exemplo)
+!data/samples/*.csv
+!data/examples/*.json
+
+# ================================
+# MODELOS E ARTEFATOS ML
+# ================================
+# Modelos treinados
+models/*.pkl
+models/*.h5
+models/*.pt
+models/*.pth
+models/*.ckpt
+models/*.pb
+models/*.onnx
+models/*.joblib
+models/*.sav
+*.model
+*.weights
+
+# Manter estrutura de pastas
+!models/.gitkeep
+
+# Checkpoints de treinamento
+checkpoints/
+*.ckpt
+lightning_logs/
+
+# ================================
+# MLOPS E TRACKING
+# ================================
+# MLflow
+mlruns/
+mlartifacts/
+mlflow.db
+
+# DVC
+.dvc/
+*.dvc
+.dvcignore
+
+# Weights & Biases
+wandb/
+
+# TensorBoard
+runs/
+logs/
+*.tfevents.*
+
+# Experiment tracking
+experiments/
+outputs/
+
+# ================================
+# AIRFLOW
+# ================================
+airflow/logs/
+airflow/*.pid
+airflow/*.log
+airflow/*.db
+airflow/*.cfg
+airflow/airflow-webserver.pid
+airflow-webserver.pid
+
+# ================================
+# SPARK
+# ================================
+spark-warehouse/
+metastore_db/
+derby.log
+*.log
+
+# ================================
+# DOCKER
+# ================================
+.dockerignore
+docker-compose.override.yml
+
+# ================================
+# DATABASES
+# ================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# PostgreSQL
+*.dump
+*.sql
+
+# ================================
+# CREDENCIAIS E SECRETS
+# ================================
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+credentials.json
+secrets.yml
+config/secrets.yml
+.secrets/
+
+# AWS
+.aws/
+
+# GCP
+gcp-key.json
+service-account*.json
+
+# ================================
+# IDEs E EDITORES
+# ================================
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ================================
+# SISTEMA OPERACIONAL
+# ================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+.directory
+.Trash-*
+
+# ================================
+# DOCUMENTAÇÃO
+# ================================
+# Sphinx documentation
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# MkDocs
+site/
+
+# ================================
+# LOGS E TEMPORÁRIOS
+# ================================
+*.log
+logs/
+*.tmp
+*.temp
+tmp/
+temp/
+
+# ================================
+# PROFILING E PERFORMANCE
+# ================================
+*.prof
+*.lprof
+.profiling/
+
+# ================================
+# CACHE E OTIMIZAÇÃO
+# ================================
+.cache/
+*.cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# ================================
+# NOTEBOOKS EXECUTADOS
+# ================================
+# Se quiser ignorar outputs de notebooks
+# (descomente se preferir versionar só código)
+# *.ipynb
+
+# ================================
+# OUTPUTS E RELATÓRIOS
+# ================================
+reports/figures/*.png
+reports/figures/*.jpg
+reports/figures/*.pdf
+!reports/figures/.gitkeep
+
+# ================================
+# OUTROS
+# ================================
+# Arquivos de backup
+*.bak
+*.backup
+*.old
+
+# Arquivos compactados
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Arquivos grandes de mídia
+*.mp4
+*.avi
+*.mov
+*.mp3
+*.wav
+
+# ================================
+# MANTER ESTRUTURA DE PASTAS VAZIAS
+# ================================
+# Adicione arquivos .gitkeep nas pastas que quer manter
+!.gitkeep
