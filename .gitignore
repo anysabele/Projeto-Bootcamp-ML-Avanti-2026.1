@@ -90,7 +90,7 @@ data/interim/*
 !data/interim/.gitkeep
 
 # Datasets específicos
-*.csv
+#*.csv
 *.tsv
 *.dat
 *.parquet
