@@ -78,8 +78,8 @@ data/raw/*
 !data/raw/.gitkeep
 
 # Dados processados
-data/processed/*
-!data/processed/.gitkeep
+#data/processed/*
+#!data/processed/.gitkeep
 
 # Dados externos
 data/external/*
