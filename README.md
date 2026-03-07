@@ -42,7 +42,7 @@ Repositório criado para o projeto de classificação de imagens, utilizando o d
     Verificação da integridade dos arquivos, consistência dos metadados, 
     qualidade das imagens, distribuição das classes e duplicatas.
     
-    Preparação dos dados para o treinamento do modelo.
+    Separação dos dados para o treinamento do modelo.
     
     Treinamento do modelo.
     
