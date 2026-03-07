@@ -18,7 +18,17 @@ Repositório criado para o projeto de classificação de imagens, utilizando o d
      Apresentar métodos da literatura e propor ideias para métodos próprios.
     
      Apresentar métodos da literatura e métodos próprios.
-
+     
+## Estrutura do projeto:
+     Projeto-Bootcamp-ML-Avanti-2026.1/
+     ├─ SLIDES
+          ├─ primeira entrega
+          ├─ segunda estrega
+          ├─ terceira entrega - DEMODAY
+          ├─ conclusões.pdf
+     ├─ .gitignore
+     ├─ .ipynb
+     ├─ README.md
 
 
 ## Tecnologias
@@ -37,3 +47,9 @@ Repositório criado para o projeto de classificação de imagens, utilizando o d
     Treinamento do modelo.
     
     Conclusões.
+
+
+## Como executar:
+
+     Abra o notebook Colab: Equipe_2ipynb.ipynb
+     Execute as células em ordem.
